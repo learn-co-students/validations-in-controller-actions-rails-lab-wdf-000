@@ -1,0 +1,8 @@
+<h2>New Post</h2>
+
+<%= form_for @post do |t| %>
+  <%= t.text_field :title %>
+  <%= t.text_field :category %>
+  <%= t.text_field :content %>
+  <%= t.submit %>
+<% end %>
